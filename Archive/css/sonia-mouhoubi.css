@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+	font-family: Tahoma; 
+	margin : 0 auto;
+	width: 80%; 
+	padding : 0;
+	color : #534449;	
+	line-height: 1.6;  	
+}
+a {
+	text-decoration : none;
+	color : #333300;
+	font-weight : bold;
+}
+li {
+	list-style : none;
+}
+h1 {
+	text-align : center;
+	margin-top : 3em;
+}
+h2 {
+	text-align : center;
+	font-size : 2em;
+}
+/*=======================SECTION HEADER==================*/
+header {
+		height : 100vh;
+}
+nav {
+	z-index: 1;
+	position : fixed;
+	left : 0;
+	right : 0;
+	background-color : #FFFFCC;
+	padding : 1em;	
+
+}
+nav a {
+	padding : 3em;	
+	margin : 0 auto;	
+}
+.logo {
+	max-width : 40%;
+	display: block;
+	margin: auto;
+	padding-top : 5em;
+}
+/*=======================SECTION A PROPOS==================*/
+
+.a-propos {
+	z-index: 0;
+	clip-path : polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+	background-color : #f7cfe0;
+	padding : 6em;
+}
+/*=======================SECTION CONNAISANCE==================*/
+.connaissance {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	padding : 1em;	
+}
+.competence {
+	width : 100%;
+	padding : 5em 2em;
+}
+.savoir-etre {
+	background-color : #FFFFCC;
+	padding : 2em;
+	height : 60%;
+}
+.tech {
+	background-color : #CCFFCC;
+	padding : 2em;
+	margin : 6em;
+}
+/*=======================SECTION ETUDE==================*/
+.etude {
+    display: flex;
+}
+.formation {
+	background-color : #ffe5ce;
+	padding : 2em;
+	width : 50%;
+}
+.experience {
+	background-color : #daedda;
+	padding : 2em;
+	width : 50%;
+	
+}
+/*=======================SECTION footer==================*/
+.footer {
+	padding : 1em;
+	text-align : center;
+	
+}
+
+
